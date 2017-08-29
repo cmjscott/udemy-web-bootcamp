@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<form action="">
+    <h1>Register</h1>
+    <div>
+        <label for="firstName">First Name: </label>
+        <input type="text" placeholder="John" required id="firstName">
+        <label for="lastName">Last Name: </label>
+        <input type="text" placeholder="Smith" required id="lastName">
+    </div>
+    <div>
+        <label for="male">Male </label>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="female">Female </label>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="other">Other </label>
+        <input type="radio" name="gender" id="other" value="other" required>
+    </div>
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" placeholder="your email" required id="email">
+        <label for="password">Password: </label>
+        <input type="password" placeholder="your password" required id="password" minlength="5" maxlength="10">
+    </div>
+    <div>
+        <label for="month">Birthday: </label>
+        <select name="month" id="month">
+            <option value="january">January</option>
+        </select>
+
+        <select name="day" id="">
+            <option value="1">1</option>
+        </select>
+
+        <select name="year" id="">
+            <option value="2017">2017</option>
+        </select>
+    </div>
+    <div>
+        <label for="tosAgree">I agree to the terms and conditions </label>
+        <input type="checkbox" name="tos" id="tosAgree" required>
+    </div>
+    <div>
+        <button>Submit</button>
+    </div>
+</form>
+
+</body>
+</html>
